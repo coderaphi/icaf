@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    width: 100%;
+    margin:auto;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 100px;
+}
+.profimage{
+   width: 175px;
+   margin:auto;
+}
+.leftseg{
+    text-align: justify;
+    margin-left: 30px;
+
+}
+.covernew{
+    width: 360px;
+}
+
+.covernew:hover{
+    width: 370px;
+    transition-delay: .6s;
+    transition: all 0.2s ease;
+    border:solid 6px orange;
+}
+.coverold{
+    width: 360px;
+}
+.bookHolder{
+    display:flex;
+    justify-content: space-evenly;
+}
+.profile{
+    margin:auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.bottomlinks{
+    list-style:none;
+    display:flex;
+    justify-content: space-evenly;
+    vertical-align: center;
+    font-family: arial;
+    padding-bottom: 40px;
+}
+
+.ln{
+    width:25px;
+}
+
+.footer{
+    height: 70px;
+    background-color: orange;
+    text-align: right;
+    padding-right: 30px;
+    line-height: 70px;
+    color: white;
+    font-family: monospace;
+}

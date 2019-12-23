@@ -1,0 +1,44 @@
+.container{
+ display: grid;
+ grid-template-columns: 2fr 3fr;
+ margin-top: 900px;
+ width: 100%;
+ margin:auto;
+
+}
+.bookimage{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+
+}
+.bookOne{
+    width: 200px;
+   
+    
+
+}
+
+.chapters{
+    text-align: left;
+    /* margin-top:100px; */
+    padding: 20px;
+    margin-left:100px;
+
+    
+}
+.chap{
+    text-decoration: none;
+    
+    list-style: none;
+    font-size: 30px;
+
+}
+p{
+    font-size:20px;
+}
+.chapterImage{
+    width: 500px;
+}
+
+
