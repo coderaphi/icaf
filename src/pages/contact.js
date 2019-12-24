@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout"
+import styles from "./contact.module.css"
 
 
  const contact = () => {
@@ -8,9 +9,25 @@ import Layout from "../components/layout"
        
         
        <Layout>
-            <div>
+            <div className={styles.container}>
                 
-                    <h1>contact</h1>
+               
+                <div className={styles.box}>
+                    <ul className={styles.contact}> 
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <li>Dr Ishaq Ashfaq</li>
+                        <li> Washington DC USA</li>
+                        <li>202-340-3456</li>
+                    </ul>
+                </div>
+
             </div>
         </Layout>
         

@@ -1,0 +1,22 @@
+
+.container{
+    width: 60%;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(228, 225, 225);
+    height: 400px;
+    margin-bottom: 30px;
+    box-shadow: rgb(210, 208, 208) 12px 12px 23px;
+}
+
+li{ 
+    text-decoration: none;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+}
+.contact {
+    margin: auto;
+
+}

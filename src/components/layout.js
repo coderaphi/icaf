@@ -29,9 +29,9 @@ const Layout = ({ children }) => {
       <div className="header">
         <Menu>  </Menu>
         <main>{children}</main>
-        <footer>
+        <footer className="footer">Copyrights Reserved Dr Ishaq Ashfaq 
       
-          <a href="https://www.gatsbyjs.org"></a>
+      
         </footer>
         
       </div>

@@ -68,8 +68,7 @@ const index = () => {
           </ul>
            
         </div>
-        <div className={styles.footer}> Copyrights Reserved Dr Ishaq Ashfaq 
-      </div>
+        
     </Layout>
   )
 }

@@ -8,13 +8,13 @@ const Menu = () => {
       <ul className="menu-items">
        
         <li className="menulink">
-          <Link to="/">Home</Link>
+          <Link className="menu-a" to="/">Home</Link>
         </li>
         <li className="menulink">
-          <Link to="/book">Book</Link>
+          <Link className="menu-a" to="/book">Book</Link>
         </li>
         <li className="menulink">
-          <Link to="/contact">Contact</Link>
+          <Link className="menu-a" to="/contact">Contact</Link>
         </li>
       </ul>
     </div>

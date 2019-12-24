@@ -11,10 +11,13 @@ class book extends Component {
           
           "/images/rainbow.jpg",
           "/images/rainbow2.jpg",
-          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSth_o52tNSN6nqu2hmfycXfZQ2CDUs2d1uaLDmuWSSPj4ItKKMgZgSVhGeyxK79gswHNL_8cdwa14kMOjQCfDhCWwIFsLFeTdKun7yBFivXmD4wHvjulxJ&usqp=CAc",
-          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTCqpQgQCYtE0fg4-ghEBW-vsO2S8PUawxq2i-RVG5JpXmdpDLTfTOWJtQThp5cLIGnmlOqSbX1ZoOXrDMaF21BQtk1w6_eBmQUrNWeb-_AAcJt8JPsdpBVHw&usqp=CAc"
+          "/images/image3.jpg",
+          "/images/image4.jpg",
+          "images/image5.jpg",
+          "images/image6.jpg"
 
         ],
+      
         index:0
 
     
@@ -41,6 +44,11 @@ class book extends Component {
     }
     chapter5=()=>{
       this.setState({
+        index: this.state.index =4
+      })
+    }
+    chapter6=()=>{
+      this.setState({
         index: this.state.index =5
       })
     }
@@ -57,18 +65,20 @@ class book extends Component {
             do to brighten it
           </p>
             <ul>
-                <li onClick={this.chapter1} > Rainbows and Obama</li>
-                <li onClick={this.chapter2}> Clinton and Charity</li>
-                <li onClick={this.chapter3}> Fullbright and Mozah</li>
-                <li onClick={this.chapter4}> Bush and Peacemaking</li>
-                <li onClick={this.chapter5}> Birth and imprisonment</li>
-                <li onClick={this.chapter6}> Hell and Heaven</li>
+              <br/>
+              <br/>
+                <li className={styles.description} onClick={this.chapter1} > Rainbows and Obama</li>
+                <li className={styles.description}onClick={this.chapter2}> Clinton and Charity</li>
+                <li className={styles.description}onClick={this.chapter3}> Fullbright and Mozah</li>
+                <li className={styles.description}onClick={this.chapter4}> Bush and Peacemaking</li>
+                <li className={styles.description}onClick={this.chapter5}> Birth and imprisonment</li>
+                <li className={styles.description}onClick={this.chapter6}> Hell and Heaven</li>
             </ul>
         </div>
         <div className={styles.bookimage}>
          
             <img href="#" className={styles.chapterImage} src={this.state.chapters[this.state.index]}/>
-          
+            <div className={styles.textArea} > The music resumed with the haka and poi by the Maori dancers. They stuck their tongues all out as if to lick the rainbows. The twenty-odd Ugandan boys embraced the entire Tennessee Children’s Dance Ensemble before moving to their next target. The Japanese kids instantly raised peace signs, but to no avail. Utterly bewildered were the four blind musicians from Harare, who stood in silence with arms folded over their djembe and bongos. Instead of the rain’s drumbeat, they could now hear a cacophony of screams and shouts. They wondered if this was an American ritual when the rain ends which they did not know about. Their chaperon, Trust Mutekwa, came over and described the double-rainbows to them, first in Shona and then in Ndebele. Smiles parted the musicians’ lips beneath their hallowed eyes.</div>
         </div>
         
       </div>

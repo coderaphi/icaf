@@ -10,6 +10,7 @@
     width: 800px;
     text-align: center;
     margin: auto;
+    
 
 }
 .bookOne{
@@ -21,9 +22,10 @@
 
 .chapters{
     text-align: left;
-    /* margin-top:100px; */
+    background-color: rgb(238, 233, 233);
     padding: 20px;
     margin-left:100px;
+    box-shadow: rgb(220, 220, 220) 12px 1px 23px;
 
     
 }
@@ -40,5 +42,27 @@ p{
 .chapterImage{
     width: 500px;
 }
+.textArea{
+    text-align:justify;
+    padding: 0px 15px;
+    border: 1px rgb(210, 207, 207) solid;
+    margin-bottom: 20px;
+    margin-top:10px;
+    margin-left: 15px;
+}
+li:hover{
+    background-color: orange;
+    cursor: context-menu;
+    /* font-size: 20px; */
+    transition: .3s;
+    color: white;
+}
 
+.description{
+    font-size: 20px;
+    text-align: left;
+}
+p{
+    font-size: 15px;
+}
 
