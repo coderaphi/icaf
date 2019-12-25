@@ -1,0 +1,1 @@
+// "deploy:github": "npm run build && node ./scripts/deploy-github"//
