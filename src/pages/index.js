@@ -2,6 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Menu from "../components/Menu"
 import styles from "./index.module.css"
+import profileImage from "../images/profile.jpg"
+import covernew from "../images/covernew.jpg"
+import coverold from "../images/coverold.jpg"
+import ln from "../images/ln.png"
 console.log(styles)
 
 const index = () => {
@@ -10,7 +14,7 @@ const index = () => {
       <div className={styles.container}>
         <div className={styles.leftseg}>
           <div className={styles.profile}>
-            <img className={styles.profimage} src="/images/profile.jpg" />
+            <img className={styles.profimage} src={profileImage} />
           </div>
           <div className={styles.text}>
             As founder and chimney sweep of the International Child Art
@@ -45,12 +49,12 @@ const index = () => {
               <img
                 href="#"
                 className={styles.covernew}
-                src="/images/covernew.jpg"
+                src={covernew}
               />
             </a>
           </div>
           <div className={styles.bookimage2}>
-            <img className={styles.coverold} src="/images/coverold.jpg" />
+            <img className={styles.coverold} src={coverold}/>
           </div>
         </div>
         <div className={styles.links}>
@@ -63,7 +67,7 @@ const index = () => {
             <li>
                 <img href="#"
                 className={styles.ln}
-                src="/images/ln.png"></img>
+                src={ln}></img>
             </li>
           </ul>
            
