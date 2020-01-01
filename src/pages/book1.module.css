@@ -1,15 +1,24 @@
-.container{
+ .container{
  display: grid;
- grid-template-columns: 2fr 3fr;
- margin-top: 900px;
+ grid-gap: 23px;
+ grid-template-columns: 2fr 800px;
  width: 100%;
+ /* height: 500px; */
  margin:auto;
+ overflow: hidden;
 
 }
-.bookimage{
-    width: 800px;
-    text-align: center;
-    margin: auto;
+.chapImage{
+    width: 500px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 10px;
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    
     
 
 }
@@ -19,19 +28,20 @@
     
 
 }
-
 .chapters{
+    margin-left:0;
+}
+.chaptItems{
     text-align: left;
     background-color: rgb(238, 233, 233);
     padding: 20px;
-    margin-left:100px;
     box-shadow: rgb(220, 220, 220) 12px 1px 23px;
+    display: block;
 
     
 }
 .chap{
-    text-decoration: none;
-    
+    text-decoration: none;   
     list-style: none;
     font-size: 30px;
 
@@ -45,15 +55,17 @@ p{
 .textArea{
     text-align:justify;
     padding: 0px 15px;
-    border: 1px rgb(210, 207, 207) solid;
     margin-bottom: 20px;
-    margin-top:10px;
-    margin-left: 15px;
+    margin-top:350px;
+    margin-left:20px;
+    width: 90%;
+    overflow-y: scroll;
+    height:100px;
 }
-li:hover{
+.chaptItems:hover{
     background-color: orange;
     cursor: context-menu;
-    /* font-size: 20px; */
+    font-size: 20px;
     transition: .3s;
     color: white;
 }
@@ -64,5 +76,17 @@ li:hover{
 }
 p{
     font-size: 15px;
+} 
+.imageHolder{
+    width: 800px; 
+    position: relative;
+    background-color: rgb(223, 218, 218);
+    box-shadow: rgb(220, 220, 220) 12px 1px 23px;
+
+
 }
+
+
+
+
 

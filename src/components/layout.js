@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Menu from "../components/Menu"
 import "./layout.css"
+import Modal from "../components/Modal.js"
 
 
 const Layout = ({ children }) => {
@@ -28,8 +29,9 @@ const Layout = ({ children }) => {
       
       <div className="header">
         <Menu>  </Menu>
+        
         <main>{children}</main>
-        <footer className="footer">Copyrights Reserved Dr Ishaq Ashfaq 
+        <footer className="footer">© 2020 Ashfaq M. Ishaq  |  { <button className="privacy">Privacy Policy</button>}
       
       
         </footer>

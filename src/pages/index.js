@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-import Menu from "../components/Menu"
 import styles from "./index.module.css"
 import profileImage from "../images/profile.jpg"
 import covernew from "../images/covernew.jpg"
 import coverold from "../images/coverold.jpg"
 import ln from "../images/ln.png"
+import twitter from "../images/twitter.png"
+
 console.log(styles)
 
 const index = () => {
@@ -17,28 +18,26 @@ const index = () => {
             <img className={styles.profimage} src={profileImage} />
           </div>
           <div className={styles.text}>
-            As founder and chimney sweep of the International Child Art
-            Foundation, I organize the Arts Olympiad—which has grown since 1997
-            into the world’s largest school art program, in part because it is
-            free of charge. Would you believe that my biggest qualification is
-            that I have examined more children’s artworks than anyone else,
-            ever? I have come to believe that art produced by a child is the
-            most honest and purest form of human creative expression.In
-            September 1998, I produced the first-ever national American
-            children’s art festival. I have produced the World Children’s
-            Festival at The National Mall every four years since 1999. I have
-            come to believe that the collective imagination of the world’s
-            children is a heavenly force on Earth.An economist by training, I
-            have written for The Lancet and have served on the board of the
-            World Psychiatry Foundation. I am recipient of the Ziegfeld Award
-            for Outstanding International Leadership in Art Education and the
-            United States Sport Academy’s Distinguished Service Award. The
-            United Nations appointed me as one of the five international judges
-            who selected the final design of the Slavery Memorial that now
-            adorns the UN headquarters in New York City.My objective is to
-            awaken your inner child—the creative and empathic you. Our world is
-            broken and lies in heaps because it needs more “creative-empaths” to
-            brighten the future for all.
+            I did not set out to be the person who has examined and judged more
+            artworks by children than anyone else around, but this was a
+            consequence of my founding the International Child Art Foundation in
+            1997 in Washington, D.C. Children’s creative expressions immersed me
+            in their imagination. I came to believe that art produced by
+            children is the most honest and purest form of human creative
+            expression. The collective imagination of the world’s children is a
+            precious resource in the universe, a guide for the future. In 1998,
+            I produced the first-ever national American children’s art festival,
+            and since 1999 I have produced the World Children’s Festival at The
+            National Mall every four years as the Olympics of children
+            imagination. An economist by training, I started my career as a
+            researcher at the World Bank before joining the faculty at the
+            George Washington University. I went out on my own, started a
+            consulting company that took me around the world before founding
+            ICAF to make this world better for its children. My objective is to
+            awaken your inner-child, the creative-empath in you, so you join us
+            to help the children employ their inborn wisdoms and machines
+            artificial intelligence to repair the world by bringing humankind on
+            the side of humanity.
           </div>
         </div>
 
@@ -46,33 +45,33 @@ const index = () => {
           <div className={styles.bookimage}>
             <a href="/book">
               {/* {" "} */}
-              <img
-                href="#"
-                className={styles.covernew}
-                src={covernew}
-              />
+              <img href="#" className={styles.covernew} src={covernew} />
             </a>
           </div>
           <div className={styles.bookimage2}>
-            <img className={styles.coverold} src={coverold}/>
+            
+            
+            
+          <a href="https://www.amazon.com/dp/B00D7MQ2PU"><img className={styles.coverold} src={coverold} /></a>  
           </div>
         </div>
-        <div className={styles.links}>
-     
-        </div>
-        
+        <div className={styles.links}></div>
+
         <ul className={styles.bottomlinks}>
-            <li>CV</li>
-            <li> Contact</li>
-            <li>
-                <img href="#"
-                className={styles.ln}
-                src={ln}></img>
-            </li>
-          </ul>
-           
-        </div>
-        
+          <li className={styles.bottom}>CV</li>
+          <li className={styles.bottom}> Contact</li>
+          <li className={styles.bottom}> News</li>
+         
+          <li>
+          <div className={styles.socBorder}>
+            <img href="#" className={styles.ln} src={ln}></img>
+            <img href="#" className={styles.twitter} src={twitter}></img>
+          </div>
+          
+          </li>
+
+        </ul>
+      </div>
     </Layout>
   )
 }
